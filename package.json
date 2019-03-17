@@ -1,0 +1,33 @@
+{
+  "name": "Herbal-Tranquility",
+  "version": "1.0.0",
+  "description": "Herbal Tranquility Massage ",
+  "main": "server.js",
+  "repository": "git@github.com:willis5490/Herbal-Tranquility.git",
+  "author": "William Stearns <wcstearns@yahoo.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "if-env NODE_ENV=production && yarn start:prod || yarn start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"yarn run client\"",
+    "client": "cd client && yarn start",
+    "seed": "node scripts/seedDB.js",
+    "install": "cd client && yarn install",
+    "build": "cd client && yarn build",
+    "heroku-postbuild": "yarn build"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^6.3.1",
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "if-env": "^1.0.4"
+  }
+}

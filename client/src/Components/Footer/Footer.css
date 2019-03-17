@@ -1,0 +1,23 @@
+#footerBody{
+    
+    background-color:white;
+}
+#secondfooter{
+    background-color:white;
+}
+#footerLogo{
+    width: 150px;
+    height: 100px;
+}
+.footheaders>p{
+    color: #00914C !important;
+}
+
+@media only screen and (max-width: 960px) {
+    #footerLogo{
+        width: 100px;
+        height: 75px;
+    }
+
+      }
+    

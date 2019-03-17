@@ -1,0 +1,110 @@
+#homeBody{
+    overflow: hidden;
+}
+
+.homeInfoSections{
+    color: black !important;
+}
+.mobilehomeInfoSections{
+    color: black !important;
+}
+.derp{
+    background-color: aqua;
+}
+.homeCardWhiteSpace{
+    background-color: yellow;
+}
+.homeCards{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.mobileHomeCards{
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+#homeLeaf{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#homeLeafRight{
+    width: 50px;
+    height: 50px;
+    margin-left: 60px;
+}
+#homeLeafLeft{
+    width: 50px;
+    height: 50px;
+    margin-right: 60px;
+}
+#homeLeafBottomLeft{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+#homeLeafBottomRight{
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.homePics{
+    width: 400px;
+    height: 350px;
+}
+
+
+#homeMainPic{
+    overflow: hidden;
+    /* background-color: #00914C; */
+    background: url('../../images/image3.jpeg')  no-repeat center  ;
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    height: 600px;
+}
+
+@media only screen and (max-width: 960px) {
+    
+#homeMainPic{
+    overflow: hidden;
+    /* background-color: #00914C; */
+    background: url('../../images/image3.jpeg')  no-repeat center  ;
+    /* background-size: 100% 100%; */
+    background-size: cover;
+    height: 400px;
+}
+#homeLeaf{
+    width: 35px;
+    height: 35px;
+    margin: 10px;
+}
+#homeLeafRight{
+    width: 35px;
+    height:35px;
+    margin-left: 50px;
+}
+#homeLeafLeft{
+    width: 35px;
+    height: 35px;
+    margin-right:50px;
+}
+#homeLeafBottomLeft{
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+#homeLeafBottomRight{
+    width: 35px;
+    height: 35px;
+    margin-left: 20px;
+}
+.homePics{
+    width: 300px;
+    height: 250px;
+}
+.homeTextBottom{
+    font-size: 20px;
+}
+
+
+  }

@@ -1,0 +1,45 @@
+#headerBody{
+    background-color: white;
+    
+
+}
+.uk-navbar-container{
+    height: 140px;;
+}
+#logoMobile{
+    width: 100px;
+    height: 75px;
+}
+#logo-nav{
+    width: 150px;
+    height: 100px;
+
+}
+#mobileMenu{
+    margin-left: 1em;
+}
+.uk-offcanvas-bar{
+    background-color: #00914C;
+}
+.uk-nav-divider{
+    border-top: 1px solid black !important;
+}
+.navLinks{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 960px) {
+    
+    #logo-nav{
+        width: 100px;
+        height: 75px;
+    
+    }
+    
+    .uk-navbar-container{
+        height: 100px;;
+    }
+    
+    
+      }
+    
