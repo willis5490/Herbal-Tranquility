@@ -525,12 +525,12 @@ class Home extends Component {
                             <h3 className='homeTextBottom'>*ALL SERVICES INCLUDE A THC/CBD, OIL/LOTION OPTION</h3>
                             <h3 className='homeTextBottom'>*15% DISCOUNT TO: TEACHERS, LAW ENFORCEMENT, ACTIVE MILITARY AND FIRST RESPONDERS</h3>
                         </div>
-
                     </div>
-
                 </div>
-
             </div>
+
+            <a href='/Contact'><button class="uk-button homeButtons uk-text-center uk-margin-xlarge-bottom uk-align-center uk-visible@m uk-button-large">Contact us!</button></a>
+            <a href="tel:720-602-0676"><button class="uk-button homeButtons uk-text-center uk-margin-xlarge-bottom uk-align-center uk-hidden@m uk-button-large">Call Us!</button></a>
           
           </div>
       </div>
